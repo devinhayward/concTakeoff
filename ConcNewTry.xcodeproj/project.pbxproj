@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E05C459268E4FBF0088A072 /* FormworkSumLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05C458268E4FBF0088A072 /* FormworkSumLineView.swift */; };
 		1E05C45B268E4FCB0088A072 /* SummationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05C45A268E4FCB0088A072 /* SummationView.swift */; };
 		1E05C461268E4FF60088A072 /* csvParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05C45D268E4FF60088A072 /* csvParsing.swift */; };
 		1E05C462268E4FF60088A072 /* ConvertToConcObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E05C45E268E4FF60088A072 /* ConvertToConcObject.swift */; };
@@ -25,10 +24,10 @@
 		1E135B20268E459900E759D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E135B1F268E459900E759D5 /* Assets.xcassets */; };
 		1E135B23268E459900E759D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E135B22268E459900E759D5 /* Preview Assets.xcassets */; };
 		1E135B2B268E461300E759D5 /* ImportCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 1E135B2A268E461300E759D5 /* ImportCSV */; };
+		1E98EAFD268FBB8E00C4E56A /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E98EAFC268FBB8E00C4E56A /* TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1E05C458268E4FBF0088A072 /* FormworkSumLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormworkSumLineView.swift; sourceTree = "<group>"; };
 		1E05C45A268E4FCB0088A072 /* SummationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummationView.swift; sourceTree = "<group>"; };
 		1E05C45D268E4FF60088A072 /* csvParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csvParsing.swift; sourceTree = "<group>"; };
 		1E05C45E268E4FF60088A072 /* ConvertToConcObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertToConcObject.swift; sourceTree = "<group>"; };
@@ -46,6 +45,7 @@
 		1E135B1B268E459900E759D5 /* ConcNewTryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcNewTryApp.swift; sourceTree = "<group>"; };
 		1E135B1F268E459900E759D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E135B22268E459900E759D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E98EAFC268FBB8E00C4E56A /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +60,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E05C457268E4F950088A072 /* Summation Views */ = {
+		1E05C457268E4F950088A072 /* Table Data */ = {
 			isa = PBXGroup;
 			children = (
-				1E05C458268E4FBF0088A072 /* FormworkSumLineView.swift */,
 				1E05C45A268E4FCB0088A072 /* SummationView.swift */,
 			);
-			path = "Summation Views";
+			path = "Table Data";
 			sourceTree = "<group>";
 		};
 		1E05C45C268E4FE40088A072 /* Documents */ = {
@@ -105,6 +104,7 @@
 			children = (
 				1E05C476268E50590088A072 /* ConcreteRecordView.swift */,
 				1E05C475268E50590088A072 /* TakeoffListView.swift */,
+				1E98EAFC268FBB8E00C4E56A /* TableView.swift */,
 			);
 			path = "Takeoff List";
 			sourceTree = "<group>";
@@ -133,7 +133,7 @@
 				1E05C46C268E50280088A072 /* Model */,
 				1E05C465268E500E0088A072 /* Landing Views */,
 				1E05C45C268E4FE40088A072 /* Documents */,
-				1E05C457268E4F950088A072 /* Summation Views */,
+				1E05C457268E4F950088A072 /* Table Data */,
 				1E135B1F268E459900E759D5 /* Assets.xcassets */,
 				1E135B21268E459900E759D5 /* Preview Content */,
 			);
@@ -227,7 +227,6 @@
 				1E05C478268E50590088A072 /* ConcreteRecordView.swift in Sources */,
 				1E05C469268E501C0088A072 /* LandingView.swift in Sources */,
 				1E05C462268E4FF60088A072 /* ConvertToConcObject.swift in Sources */,
-				1E05C459268E4FBF0088A072 /* FormworkSumLineView.swift in Sources */,
 				1E05C473268E50370088A072 /* DataModel.xcdatamodeld in Sources */,
 				1E05C46B268E501C0088A072 /* ObjectMeasurementsView.swift in Sources */,
 				1E05C471268E50370088A072 /* DataCore.swift in Sources */,
@@ -237,6 +236,7 @@
 				1E05C45B268E4FCB0088A072 /* SummationView.swift in Sources */,
 				1E05C46A268E501C0088A072 /* ObjectDetailsView.swift in Sources */,
 				1E135B1C268E459900E759D5 /* ConcNewTryApp.swift in Sources */,
+				1E98EAFD268FBB8E00C4E56A /* TableView.swift in Sources */,
 				1E05C463268E4FF60088A072 /* csvDocument.swift in Sources */,
 				1E05C464268E4FF60088A072 /* ImportDataView.swift in Sources */,
 			);

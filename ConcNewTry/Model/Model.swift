@@ -59,7 +59,7 @@ struct ObjectMeasurements: Codable {
     var height: Quantity = Quantity(value: 0, unit: Units.mm)
 }
 
-struct ConcreteObject: Codable {
+struct ConcreteObject: Codable,Identifiable {
     
     var id = UUID()
     var description = ""
