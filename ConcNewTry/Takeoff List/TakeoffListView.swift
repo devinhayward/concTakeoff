@@ -17,14 +17,6 @@ struct TakeoffListView: View {
         
         TableView(concObjects: model.items)
         
-        }
-        
-        
-        
-        .onAppear {
-            model.items.removeAll()
-            model.items = DataCore.fetchConcObjects()
-        }
     }
 }
 
