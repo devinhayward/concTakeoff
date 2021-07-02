@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ImportCSV",
+        "repositoryURL": "https://github.com/devinhayward/ImportCSV",
+        "state": {
+          "branch": null,
+          "revision": "ab82f56d7eb7758486d60fa405e606722de693b0",
+          "version": "0.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

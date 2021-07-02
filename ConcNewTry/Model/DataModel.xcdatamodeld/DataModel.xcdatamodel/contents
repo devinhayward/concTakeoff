@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20E241" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ConcObjects" representedClassName="ConcObjects" syncable="YES" codeGenerationType="class">
+        <attribute name="concObject" optional="YES" attributeType="Binary"/>
+        <attribute name="dbID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="ConcObjects" positionX="-63" positionY="-18" width="128" height="59"/>
+    </elements>
+</model>
